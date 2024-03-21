@@ -7,7 +7,7 @@ import org.apache.wayang.postgres.operators.PostgresTableSource
 import org.apache.wayang.spark.Spark
 
 
-object TpchExample {
+class TpchExample {
   def main(args: Array[String]): Unit = {
 
     val configuration = new Configuration()
